@@ -29,13 +29,14 @@ for y in range(1998,2000,1):
          
         for i in range(1, x+1, 1):
             #print(i)
-            print("%s %s"%(month_num_list[month],i))
+            print("%s %s %s"%(y,month_num_list[month],i))
             
             worksheet.write(row, column, i) 
             ##worksheet.write(row, column, item)
             row += 1    
         month+=1
     month=0
+
 workbook.close() 
  
  
