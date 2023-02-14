@@ -5,7 +5,10 @@ for x in list:
     print("List: ",x)
         
     for i in range(1, x+1, 1):
-        print(i)
+        #print(i)
+        #print(n)
+        print(listw[n])
+    n+=1       
         
         
              
