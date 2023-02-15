@@ -32,8 +32,8 @@ for y in range(1998,2023,1):
         print("List: ",x)
          
         for i in range(1, x+1, 1):
-            #print(i)
-            #print("%s %s %s"%(y,month_num_list[month],i))
+            print(i)
+            print("%s %s %s"%(y,month_num_list[month],i))
             
             #worksheet.write(row, column, item) 
             worksheet.write(row, column, i) 
